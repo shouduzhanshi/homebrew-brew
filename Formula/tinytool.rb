@@ -4,10 +4,10 @@
 class Tinytool < Formula
   desc "https://github.com/shouduzhanshi/TinyTool"
   homepage "https://github.com/shouduzhanshi/TinyTool"
-  url "https://github.com/shouduzhanshi/TinyTool/releases/download/v0.0.7/tiny_tool.tar.gz"
-  sha256 "0e1631a4d7b1bfa82291301d1af2bd59fb11251585f528dd50115979dd753835"
+  url "https://github.com/shouduzhanshi/TinyTool/releases/download/v0.0.8/tiny.tar.gz"
+  sha256 "3793fa26189eb1609ae361826176cb4abdb630ef2530f89a5ad6a64402230de4"
   license ""
-  version "1.0.6"
+  version "1.0.8"
   # depends_on "cmake" => :build
 
   def install
@@ -16,7 +16,7 @@ class Tinytool < Formula
 #     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
 #     system "./configure", *std_configure_args, "--disable-silent-rules"
 #     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install "tiny_tool"
+    bin.install "tiny"
   end
 
   test do
