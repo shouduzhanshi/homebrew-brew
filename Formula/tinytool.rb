@@ -4,10 +4,10 @@
 class Tinytool < Formula
   desc "https://github.com/shouduzhanshi/TinyTool"
   homepage "https://github.com/shouduzhanshi/TinyTool"
-  url "https://github.com/shouduzhanshi/TinyTool/releases/download/v0.0.8/tiny.tar.gz"
-  sha256 "9a6b134e5fc7c5696a871828e084274d7e11f0e32dabd7168313ac23b5a7db41"
+  url "https://github.com/shouduzhanshi/TinyTool/releases/download/v0.0.9/tiny.tar.gz"
+  sha256 "f3ee8d921fbd8710a5618bc378d484f3b46c94f7f697d7772f8d153344c4858b"
   license ""
-  version "1.0.8.1"
+  version "1.0.8.2"
   # depends_on "cmake" => :build
 
   def install
